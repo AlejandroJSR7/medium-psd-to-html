@@ -20,8 +20,9 @@ html, body{font-family: 'Gentium Book Basic', serif; font-size: 62.5%; height: 1
 h1, h2, h3, h4, h5, h6{margin: 0;}
 hr{border: 0px; border-top: 1px solid #ffffff;}
 header{height: 100%; position: relative; width: 100%;}
+.backToTop{background: url(../images/design/misc/topUp.png) no-repeat center top; color: #a8a8a8; display: block; font-family: 'Open Sans', sans-serif; font-size: 1.2rem; margin-bottom: 4rem; text-align: center; text-decoration: none; text-transform: uppercase;}
 .clearfix:after {clear: both;content: "."; display: block; height: 0; visibility: hidden;}
-header .header_image{background: url(../images/slider/principal-1.jpg) no-repeat center center / cover; height: 100%; position: relative; width: 100%;}
+.header_image{ height: 100%; position: relative; width: 100%;}
 .header-title-and-description{bottom: 0; left: 50%; margin-left: -25%; position: absolute; width: 50%;}
 .header-title-and-description h1{color: #ffffff; font-family: 'Gentium Book Basic', serif; font-size: 6rem; font-weight: normal; line-height: 2rem; margin-bottom: 2rem;}
 .header-title-and-description h3{color: #d7d7d7; font-family: 'Gentium Book Basic', serif; font-size: 2rem; font-style: italic; font-weight: normal; margin: 0 0 1rem;}
@@ -41,14 +42,18 @@ header .header_image{background: url(../images/slider/principal-1.jpg) no-repeat
 .author-and-share_share--favorite a{background: url(../images/design/icons/favorite-like-share.png) no-repeat 0 0; display: block; height: 13px; text-indent: 9999px; width: 13px;}
 .author-and-share_share--like a{background: url(../images/design/icons/favorite-like-share.png) no-repeat -31px 0; display: block; height: 13px; text-indent: 9999px; width: 14px;}
 .author-and-share_share--share a{background: url(../images/design/icons/favorite-like-share.png) no-repeat -65px 0; display: block; height: 13px; text-indent: 9999px; width: 13px;}
-
 .main{font-size: 2.2rem; font-weight: 600; line-height: 1.5em; margin: 0 auto; padding: 3.5rem 0 0; width: 50%; word-break: break-word;}
 .main p{font-size: 2.2rem; font-weight: 400; margin: 1em 0;}
+.main h1, .main h2, .main h3{color: #626262; font-weight: 400; margin: 2em 0; text-align: center;}
 .main ul, ol{font-size: 2.2rem; font-style: italic; font-weight: 400; padding: 0;}
 .main ul, ol li{color: #bfbfbf; margin-bottom: 2rem;}
 .main ul, ol li span{color: #000000; font-style: normal;}
-
 .main ul > li ol {list-style: initial; margin-left: 2rem; margin-top: 2rem;}
 .main ul > li ul {list-style: initial; margin-left: 2rem; margin-top: 2rem;}
 .main ol > li ol {list-style: initial; margin-left: 2rem; margin-top: 2rem;}
 .main ol > li ul {list-style: initial; margin-left: 2rem; margin-top: 2rem;}
+
+.share-article{height: 200px; margin-bottom: 500px; position: relative; width: 100%;}
+.share-article_button{border: 3px solid #2ecc71; border-radius: 40px; color: #2ecc71; display: block; font-family: 'Open Sans', sans-serif; height: 60px; margin: -30px auto 0; position: relative; text-align: center; text-decoration: none; top: 70px; transition: .5s; width: 20rem;}
+.share-article_button:hover{background: #ffffff;}
+.share-article_button--text-icon{background: url(../images/design/icons/share-green.png) no-repeat center left; font-size: 1.2rem; display: inline-block; margin-top: -0.6rem; padding-left: 2rem; position: relative; text-transform: uppercase; top: 50%;}

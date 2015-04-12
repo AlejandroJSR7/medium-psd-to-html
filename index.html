@@ -16,7 +16,7 @@
 </head>
 <body>
 	<header>
-		<div class="header_image">
+		<div class="header_image" data-parallax="scroll" data-image-src="images/slider/principal-1.jpg">
 			<div class="header-title-and-description">
 				<h1>This is a title</h1>
 				<h3>This is an awesome headline</h3>
@@ -49,6 +49,7 @@
 			<li>
 				<span>Sed euismod congue purus, ut adipiscing metus venenatis et. Proin dapibus sed massa ac mollis. Praesent tempus nulla sapien. Morbi vel blandit elit. Etiam lacinia interdum nibh, a tristique nulla tempor sit amet. Praesent cursus orci ut facilisis commodo.</span>
 			</li>
+			<h2>"This a long, neat, and pointless quote"</h2>
 			<li>
 				<span>Ut tempus elementum tortor, a posuere nisl tincidunt sit amet. Etiam est augue, scelerisque eu vestibulum nec, pulvinar eu libero. Sed mattis faucibus risus non luctus. Suspendisse et odio ut turpis cursus varius sed et dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut sed leo neque. </span>
 			</li>
@@ -67,10 +68,19 @@
 				</ul>
 			</li>
 		</ol>
-	</section><!--main-->
+		<a href="#" class="backToTop">
+			<span>Back to top</span>
+		</a>
+	</section><!--/main-->
+	<section class="share-article" data-parallax="scroll" data-image-src="images/design/bg/bg-footer.jpg">
+		<a href="" class="share-article_button">
+			<span class="share-article_button--text-icon">Share this article</span>
+		</a><!--/share-article_button-->
+	</section><!--/share-article-->
 	<footer></footer>
-	<script src="js/medium.js"></script>
 	<!-- tools -->
-	<script src=""></script>
+	<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="js/medium.js"></script>
+	<script src="js/fw/parallax.min.js"></script>
 </body>
 </html>
