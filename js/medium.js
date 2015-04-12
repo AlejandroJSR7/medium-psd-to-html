@@ -5,10 +5,6 @@
 	ja5054r
 */
 
-$('.header_image').parallax({imageSrc: 'images/slider/principal-1.jpg'});
-$('.share-article').parallax({imageSrc: 'images/design/bg/bg-footer.jpg'});
-
-
 $(document).ready(function(){
 	
 	//Check to see if the window is top if not then display button
