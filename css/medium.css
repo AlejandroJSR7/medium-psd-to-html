@@ -22,7 +22,7 @@ hr{border: 0px; border-top: 1px solid #ffffff;}
 header{height: 100%; position: relative; width: 100%;}
 .backToTop{background: url(../images/design/misc/topUp.png) no-repeat center top; color: #a8a8a8; display: block; font-family: 'Open Sans', sans-serif; font-size: 1.2rem; margin-bottom: 4rem; text-align: center; text-decoration: none; text-transform: uppercase;}
 .clearfix:after {clear: both;content: "."; display: block; height: 0; visibility: hidden;}
-.header_image{ height: 100%; position: relative; width: 100%;}
+.header_image{background: url(../images/slider/principal-1.jpg) no-repeat center center fixed; background-size: cover; height: 100%; position: relative; width: 100%;}
 .header-title-and-description{bottom: 0; left: 50%; margin-left: -25%; position: absolute; width: 50%;}
 .header-title-and-description h1{color: #ffffff; font-family: 'Gentium Book Basic', serif; font-size: 6rem; font-weight: normal; line-height: 2rem; margin-bottom: 2rem;}
 .header-title-and-description h3{color: #d7d7d7; font-family: 'Gentium Book Basic', serif; font-size: 2rem; font-style: italic; font-weight: normal; margin: 0 0 1rem;}
@@ -53,7 +53,7 @@ header{height: 100%; position: relative; width: 100%;}
 .main ol > li ol {list-style: initial; margin-left: 2rem; margin-top: 2rem;}
 .main ol > li ul {list-style: initial; margin-left: 2rem; margin-top: 2rem;}
 
-.share-article{height: 200px; margin-bottom: 500px; position: relative; width: 100%;}
+.share-article{background: url(../images/design/bg/bg-footer.jpg) no-repeat bottom center fixed; background-size: cover; height: 200px; margin-bottom: 500px; position: relative; width: 100%;}
 .share-article_button{border: 3px solid #2ecc71; border-radius: 40px; color: #2ecc71; display: block; font-family: 'Open Sans', sans-serif; height: 60px; margin: -30px auto 0; position: relative; text-align: center; text-decoration: none; top: 70px; transition: .5s; width: 20rem;}
 .share-article_button:hover{background: #ffffff;}
 .share-article_button--text-icon{background: url(../images/design/icons/share-green.png) no-repeat center left; font-size: 1.2rem; display: inline-block; margin-top: -0.6rem; padding-left: 2rem; position: relative; text-transform: uppercase; top: 50%;}
