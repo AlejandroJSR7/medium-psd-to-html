@@ -7,39 +7,67 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
 	<title>Medium</title>
+	<script src="js/fw/prefixfree.min.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400italic' rel='stylesheet' type='text/css' />
 	<link href='http://fonts.googleapis.com/css?family=Gentium+Basic:700italic' rel='stylesheet' type='text/css' />
-	<script src="js/fw/prefixfree.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,600' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/3.0.2/normalize.css" />
 	<link rel="stylesheet" href="css/medium.css" />
 </head>
 <body>
 	<header>
-		<img src="" alt="" class="header_image" />
-		<div class="header-title-and-description">
-			<h1>This is a title</h1>
-			<h3>This is an awesome headline</h3>
-			<hr>
-			<div class="author-and-share">
-				<div class="autor-and-share_author">
-					<strong>Writtern by</strong>
-					<p>
-						Arthur
-							<span>Gillermin Hazan</span>
-						<i class="autor-and-share_author--photo">
-							<img src="images/content/photo-author.png" alt="" />
-						</i>
-					</p>
-				</div><!--/author-and-share_author-->
-				<ul class="author-and-share_share">
-					<li class="author-and-share_share--favorite">Favorite</li>
-					<li class="author-and-share_share--like">Like</li>
-					<li class="author-and-share_share--share">Share</li>
-				</ul><!--/author-and-share_share-->
-			</div><!--/author-and-share-->
-		</div><!--/header-title-and-description-->
+		<div class="header_image">
+			<div class="header-title-and-description">
+				<h1>This is a title</h1>
+				<h3>This is an awesome headline</h3>
+				<hr>
+				<div class="author-and-share clearfix">
+					<div class="author-and-share_author">
+						<strong>Writtern by</strong>
+						<p>
+							Arthur
+								<span>Gillermin Hazan</span>
+							<i class="author-and-share_author--photo">
+								<img src="images/content/photo-author.png" alt="" />
+							</i>
+						</p>
+					</div><!--/author-and-share_author-->
+					<ul class="author-and-share_share">
+						<li class="author-and-share_share--favorite"><a href="">Favorite</a></li>
+						<li class="author-and-share_share--like"><a href="">Like</a></li>
+						<li class="author-and-share_share--share"><a href="">Share</a></li>
+					</ul><!--/author-and-share_share-->
+				</div><!--/author-and-share-->
+			</div><!--/header-title-and-description-->
+		</div><!-- header_image -->
 	</header>
-	<section></section>
+	<section class="main">
+		<ol>
+			<li>
+				<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id sapien at sem eleifend laoreet. Vivamus sagittis ipsum sed sapien dapibus, et ultrices est vulputate. Nulla nisi ligula, cursus sed auctor sit amet, convallis a elit. Aenean vestibulum rhoncus commodo.</span>
+			</li>
+			<li>
+				<span>Sed euismod congue purus, ut adipiscing metus venenatis et. Proin dapibus sed massa ac mollis. Praesent tempus nulla sapien. Morbi vel blandit elit. Etiam lacinia interdum nibh, a tristique nulla tempor sit amet. Praesent cursus orci ut facilisis commodo.</span>
+			</li>
+			<li>
+				<span>Ut tempus elementum tortor, a posuere nisl tincidunt sit amet. Etiam est augue, scelerisque eu vestibulum nec, pulvinar eu libero. Sed mattis faucibus risus non luctus. Suspendisse et odio ut turpis cursus varius sed et dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut sed leo neque. </span>
+			</li>
+			<li>
+				<span>Donec consectetur accumsan justo, in placerat ante dictum id. Vestibulum magna elit, tincidunt ut ultrices vitae, vehicula eu urna. Donec malesuada ut orci ut aliquam. Mauris non neque massa. Praesent tincidunt purus ut risus dapibus feugiat. Integer accumsan erat at tellus accumsan laoreet :</span>
+				<ul>
+					<li>
+						<span>this is a bullet point with some text inside, and also some Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id sapien at sem eleifend laoreet. Vivamus sagittis ipsum sed sapien dapibus, et ultrices est vulputate. Nulla nisi ligula, cursus sed auctor sit amet, convallis a elit.</span>
+					</li>
+					<li>
+						<span>this is another bullet point, with a bit of Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id sapien at sem eleifend laoreet. Vivamus sagittis ipsum sed sapien dapibus, et ultrices est vulputate. Nulla nisi ligula, cursus sed auctor sit amet, convallis a elit.</span>
+					</li>
+					<li>
+						<span>this is a third bullet point with still some Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id sapien at sem eleifend laoreet. Vivamus sagittis ipsum sed sapien dapibus, et ultrices est vulputate. Nulla nisi ligula, cursus sed auctor sit amet, convallis a elit.</span>
+					</li>
+				</ul>
+			</li>
+		</ol>
+	</section><!--main-->
 	<footer></footer>
 	<script src="js/medium.js"></script>
 	<!-- tools -->
